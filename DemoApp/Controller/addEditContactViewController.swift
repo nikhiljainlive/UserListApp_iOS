@@ -117,10 +117,5 @@ class addEditContactViewController: UIViewController {
         AppUtil.clearTextField(uiTextField: ageField)
         AppUtil.clearTextField(uiTextField: emailField)
         AppUtil.clearTextField(uiTextField: mobileNumberField)
-        
-//        fullNameField.text?.removeAll()
-//        ageField.text?.removeAll()
-//        emailField.text?.removeAll()
-//        mobileNumberField.text?.removeAll()
     }
 }
