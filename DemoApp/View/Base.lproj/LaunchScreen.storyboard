@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A3J-lq-zTa">
+                                <rect key="frame" x="20" y="202" width="335" height="264"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact Dictionary" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ade-EJ-Gox">
+                                        <rect key="frame" x="20" y="206" width="295" height="38"/>
+                                        <color key="tintColor" red="0.22217729889999999" green="0.55124203230000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="28"/>
+                                        <color key="textColor" red="0.22217729889999999" green="0.55124203230000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="user-dictionary-logo" translatesAutoresizingMaskIntoConstraints="NO" id="RIu-Ba-vD5">
+                                        <rect key="frame" x="20" y="20" width="295" height="166"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" secondItem="RIu-Ba-vD5" secondAttribute="height" multiplier="16:9" id="JAW-i7-xFd"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="RIu-Ba-vD5" secondAttribute="trailing" constant="20" id="FPy-R4-LTa"/>
+                                    <constraint firstItem="RIu-Ba-vD5" firstAttribute="leading" relation="lessThanOrEqual" secondItem="A3J-lq-zTa" secondAttribute="leading" constant="24" id="LnW-Pd-KAL"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ade-EJ-Gox" secondAttribute="trailing" constant="20" id="bWo-U8-11f"/>
+                                    <constraint firstItem="Ade-EJ-Gox" firstAttribute="leading" secondItem="A3J-lq-zTa" secondAttribute="leading" constant="20" id="fdw-IG-1Za"/>
+                                    <constraint firstItem="RIu-Ba-vD5" firstAttribute="top" secondItem="A3J-lq-zTa" secondAttribute="top" constant="20" id="l3S-iJ-VyV"/>
+                                    <constraint firstItem="Ade-EJ-Gox" firstAttribute="top" secondItem="RIu-Ba-vD5" secondAttribute="bottom" constant="20" id="qRN-sj-NEc"/>
+                                    <constraint firstItem="RIu-Ba-vD5" firstAttribute="centerX" relation="greaterThanOrEqual" secondItem="A3J-lq-zTa" secondAttribute="centerX" id="qnY-Ql-ckf"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ade-EJ-Gox" secondAttribute="bottom" constant="20" id="ukw-P6-5at"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="A3J-lq-zTa" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Dsh-am-8np"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="A3J-lq-zTa" secondAttribute="trailing" constant="20" id="JHD-wF-4NE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="A3J-lq-zTa" secondAttribute="bottom" constant="20" id="Mp6-2Q-XEH"/>
+                            <constraint firstItem="A3J-lq-zTa" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-9.5" id="Vu2-wt-dLY"/>
+                            <constraint firstItem="A3J-lq-zTa" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="as5-MB-ySL"/>
+                            <constraint firstItem="A3J-lq-zTa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="g0W-2i-GsS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="374.33035714285711"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="user-dictionary-logo" width="545.25" height="306.75"/>
+    </resources>
+</document>
